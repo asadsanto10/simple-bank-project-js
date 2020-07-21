@@ -12,9 +12,8 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-    
     <header id="header_area" class="container">
-        <div id="login_area" id>
+        <div id="login_area">
             <h2 class="text-center text-primary">Welocem to simple JS Bank</h2>
             <div class="input_area">
                 <h4>log in</h4>
@@ -23,6 +22,49 @@
                 <input type="password" name="" class="form-control" id="password" placeholder="Password">
                 <br>
                 <button id="login" type="" class="btn btn-primary">Log in</button>
+            </div>
+        </div>
+        <div id="transaction_area">
+            <div class="row">
+                    <div class="col-md-4">
+                        <div class="deposite design">
+                        <h5>Deposite</h5>
+                        <h2>$ 00</h2>    
+                    </div>
+                </div>
+                    <div class="col-md-4">
+                        <div class="withdraw design">
+                        <h5>Withdraw</h5>
+                        <h2>$ 00</h2>    
+                    </div>
+                </div>
+                    <div class="col-md-4">
+                        <div class="balance design">
+                        <h5>Balance</h5>
+                        <h2>$ 00</h2>    
+                    </div>
+                </div>
+            </div>
+            <div id="depositeWithdraw" class="pt-5 mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="deposites">
+                            <h4>Deposite</h4>
+                            <input type="text" name="" id="email" class=" form-control" placeholder="$ Amaount you want to Depostite">
+                            <br>
+                            <button id="depositebtn" type="" class="btn btn-primary">Deposite</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="withdras">
+                            <h4>Withdras</h4>
+                            <input type="text" name="" id="email" class=" form-control"
+                                placeholder="$ Amaount you want to Withdra">
+                            <br>
+                            <button id="withdrabtn" type="" class="btn btn-primary">Withdraw</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>

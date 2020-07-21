@@ -9,4 +9,35 @@
   margin-top: 50px;
   border-radius: 5px;
 }
+
+#header_area #transaction_area {
+  display: none;
+}
+
+#header_area #transaction_area .design {
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 12px;
+}
+
+#header_area #transaction_area .deposite {
+  background-color: slateblue;
+}
+
+#header_area #transaction_area .withdraw {
+  background: lightsalmon;
+}
+
+#header_area #transaction_area .balance {
+  background-color: orange;
+}
+
+#header_area #transaction_area #depositeWithdraw .deposites,
+#header_area #transaction_area #depositeWithdraw .withdras {
+  -webkit-box-shadow: 0 0 9px 0px #10101038;
+          box-shadow: 0 0 9px 0px #10101038;
+  padding: 25px 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=style.css.map */

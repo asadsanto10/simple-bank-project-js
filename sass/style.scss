@@ -6,4 +6,29 @@
         margin-top: 50px;
         border-radius: 5px;
     }
+    #transaction_area{
+        display: none;
+        .design{
+            padding: 15px 30px;
+            color: #fff;
+            border-radius: 12px;
+        }
+        .deposite {
+            background-color: slateblue;
+        }.withdraw {   
+            background: lightsalmon;
+        }
+        .balance{
+            background-color: orange;
+        }
+        #depositeWithdraw{
+                .deposites,
+                .withdras {
+                box-shadow: 0 0 9px 0px #10101038;
+                padding: 25px 50px;
+                margin-top: 50px;
+                border-radius: 5px;
+            }
+        }
+    }
 }
